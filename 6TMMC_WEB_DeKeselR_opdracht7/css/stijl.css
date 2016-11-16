@@ -1,0 +1,321 @@
+html{
+   background-color: #CDF7F6;
+    overflow-x: hidden;
+    width: 80%;
+     margin: 0 auto;    
+  
+}
+
+body{
+ 
+    font-family: 'Lato', sans-serif;
+    color: black;   
+    line-height: 1.5;
+    background-color: #8FB8DE;
+}
+
+h1{
+    font-size: 3em;
+    padding-left: 17%;
+    padding-top: 4%;
+    margin-top: 5%;
+    color: #CDF7F6;
+    font-family: 'Montserrat', sans-serif;
+    font-style: bold;
+
+}
+
+div.send{
+    font-family: 'Montserrat', sans-serif;
+    padding-left: -1%;
+    padding-top: 1%;
+    text-decoration: none;
+    list-style-type: none;
+    display: inline-block;
+    color: #CDF7F6;
+    font-size: 1.2em;
+}
+
+div.res{
+    font-family: 'Montserrat', sans-serif;
+     margin-left: 3%;
+    text-decoration: none;
+    list-style-type: none;
+    display: inline-block;
+    color: #8FB8DE;
+    font-size: 1.2em;
+}
+
+h2{
+    font-size: 1.5em;
+    padding-top: 1.5%;
+    padding-bottom: 1%;
+    font-style: bold;
+    color: #CDF7F6;
+    font-family: 'Montserrat', sans-serif;
+}
+
+hr {
+  border: 0;
+  width: 80%;
+  color: #CDF7F6;
+  background-color:  #CDF7F6;
+  height: 3px;
+  margin-left: 14px;
+  padding-left: 0%;
+  margin-top: -1%;
+}
+div.sol{
+    font-size: 1.2em;
+    padding-left: 17%;
+    padding-bottom: 3%;
+    margin-top: -5%;
+    color: #CDF7F6;
+    font-family: 'Montserrat', sans-serif;
+}
+
+div.tab1{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1em;
+    padding-right: 1%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+nav{ 
+    width: 100%;
+    font-family: 'Montserrat', sans-serif;
+    display: inline-block;
+    list-style-type: none;
+    padding-top: -20%;
+    margin-top: -3%;
+    margin-right: 1%;
+    padding-left: 4%;
+    position: absolute;
+}
+ 
+nav a{
+    padding-left: 3%;
+    font-size: 1.1em;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    
+    color:  #8FB8DE;
+}
+
+textarea#styled {
+    width: 300px;
+    height: 10px;
+    max-width: 500px;
+    max-height: 200px;
+    border: 3px solid #CDF7F6;
+    padding: 5px;
+    margin-right: 50%;
+    font-family: Tahoma, sans-serif;
+    color: #8FB8DE;
+    font-size: 1em;
+}
+
+nav a:hover{
+
+    color: white;
+}
+
+div.tekst{
+    margin-left: 17%;
+}
+
+figure{
+    margin-left: 71%;
+    margin-top: -5%; 
+}
+
+div.img{
+    display: none;
+}
+div.nav{
+    display: none;
+} 
+div.lijn{
+    display: none;
+}
+
+
+
+
+/* tablet */
+@media screen and (max-width: 1024px) {
+    body{
+        width: 80%;
+
+    }
+
+    header {
+        margin-top: 5%;
+        padding-top: 10%;
+        padding-left: 30%;
+        margin-right: 90%;
+        line-height: 1.5;
+        max-width: 50%;
+    }
+
+    h1{
+         padding-right: 5%;
+    }
+    
+     div.sol{
+    font-size: 1em;
+    padding-top: 5%;
+    padding-left: 4%;
+ }
+   
+
+     nav {
+        max-width: 100%;
+
+        
+    }
+     nav a{
+        padding-bottom: 10%;
+        color: white;
+        font-size: 1em;
+        padding-left: 63%;
+    }
+
+nav a:hover{
+
+    color: #8FB8DE;
+}
+
+    div.tekst{
+        font-size: 90%;
+    }
+
+    figure{
+    margin-left: 58%;
+    margin-top: -5%;
+    display: none;
+
+    
+}
+div.nav1{
+    display: none;
+}
+
+div.nav{
+    display: block;
+
+}
+
+
+div.lijn{
+    display: none;
+}
+
+
+textarea#styled {
+    width: 200px;
+    height: 10px;
+    max-width: 500px;
+    max-height: 200px;
+    border: 3px solid #CDF7F6;
+    padding: 5px;
+    margin-right: 50%;
+    font-family: Tahoma, sans-serif;
+    color: #8FB8DE;
+}
+   
+/* mobiel */
+@media screen and (max-width: 480px) {
+    html{
+   background-color: #8FB8DE;
+   
+}
+
+    body{
+        width: 100%;
+
+ }
+div.woord{
+    color: #8FB8DE;
+  margin-bottom: -50%;
+
+}
+  nav{
+        width: 75%;
+        margin: 0 auto;
+        margin-top: 25px;
+        margin-bottom: 20px;
+    }
+
+     nav a{
+        padding: 0;
+    }
+
+     nav a{
+        color: #CDF7F6;
+        display: block;
+        width: 100%;
+        margin: 15px 0px 5px 0px;
+        padding: 10px 0px 10px 0px;
+    }
+
+     nav a:hover{
+         color: white;   
+    }
+  
+    div.tekst{
+        width: 100%;
+        margin-top: 25%;
+    }
+
+
+ header {
+    padding-top:200%; 
+
+ }
+
+ h1{
+    font-size: 2.2em;
+    padding-right: 10%;
+ }
+
+ div.sol{
+    font-size: 1.1em;
+    padding-top: 1%;
+    padding-right: -1%;
+ }
+
+ div.tab1{
+    font-size: 1em;
+    width: 80%;
+
+     }
+
+textarea#styled {
+    width: 200px;
+    height: 8px;
+    max-width:100px;
+    max-height: 10px;
+    border: 2px solid #CDF7F6;
+    padding: 5px;
+    font-family: Tahoma, sans-serif;
+}
+
+figure{
+    display: none;
+}
+
+
+div.nav1{
+    display: inline;
+}
+
+
+div.lijn{
+    display: inherit;
+    padding-top:7%;
+    padding-left: 5%;
+}
+
+
